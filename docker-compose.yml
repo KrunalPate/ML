@@ -1,0 +1,9 @@
+version: "3.7"	
+
+services:	
+  tosios:	
+    image: asp2131/	
+    container_name: tosios	
+    restart: always	
+    ports:	
+      - 3001:3001
